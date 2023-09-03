@@ -1,0 +1,387 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 60px;
+  background-color: rgb(0, 63, 130);
+  background-image: url(../imagenes/feaaf5292d46adefe1f8326b4b20ee2a.jpg);
+}
+
+footer {
+  background-image: linear-gradient(#00d2cb, #01b896, #00627d, #006767);
+  padding: 50px;
+  font-family: "Luckiest Guy", cursive;
+  margin: auto;
+}
+
+.header {
+  background-image: url(../imagenes/logo.gif);
+}
+
+.titulo {
+  color: #00ffff;
+  font-family: "Black Ops One", cursive;
+  font-size: 70px;
+  text-align: center;
+  min-width: 250px;
+  padding: 25px;
+  margin-top: 30px;
+}
+
+.subtitulo {
+  color: #00ffff;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+}
+
+.navbar1 {
+  background-image: linear-gradient(#00d2cb, #01b896, #00627d, #006767);
+  list-style: none;
+  margin: 0px auto;
+  text-align: center;
+  font-family: "Luckiest Guy", cursive;
+}
+
+.navbar1 li {
+  display: inline-block;
+  text-align: center;
+}
+
+.navbar1 li a {
+  padding: 20px;
+  margin: 10px;
+  color: #002064;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.navbar1 li a:hover {
+  color: #ffffff;
+  background-image: linear-gradient(#00ff2a, #5200a4);
+  border-radius: 30%;
+}
+
+.carrusel {
+  height: 70vh;
+  width: 90vw;
+  margin: 50px;
+  padding: 1rem;
+  display: flex;
+}
+
+.carrusel img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+
+.carrusel img:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.sectioninicio {
+  background-image: url(../imagenes/workspace-1280538_1280.jpg);
+  opacity: 0.9;
+  padding: 300px;
+  margin: 10px;
+  margin-top: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sectioninicio1 {
+  color: #efef00;
+  font-size: 40px;
+  text-align: center;
+}
+
+.sectioninicio:hover {
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.divinicio {
+  color: #46ecff;
+}
+
+.divinicio2 {
+  color: #eaff00;
+}
+
+.divinicio3 {
+  color: #00d9ff;
+  font-size: 50px;
+}
+
+.portafolio {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
+
+.parrafoPortafolio1 {
+  background-color: #006671;
+  padding: 10px;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+  color: #00ffff;
+}
+
+.parrafoPortafolio2 {
+  background: linear-gradient(#006671, #00321b);
+  padding: 10px;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+  color: #00ffff;
+}
+
+.portafolio3 {
+  background-color: #00627d;
+  padding: 30px;
+  display: grid;
+  color: #00ffff;
+}
+
+.portafolioTrabajos {
+  background: linear-gradient(#003135, #09006e);
+  width: auto;
+  height: 600px;
+  margin: 20px;
+  flex-wrap: wrap;
+  overflow: auto;
+  text-overflow: ellipsis;
+}
+
+.portafolioTrabajosp {
+  font-family: "Orbitron", sans-serif;
+  color: #00ffff;
+  font-size: 20px;
+}
+
+.card1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 300px;
+  margin: 10px;
+  padding: 10px;
+  width: 100px;
+}
+
+.redes {
+  display: grid;
+  margin: 20px;
+}
+
+.wspp {
+  animation: rotate-scale-up 0.4s linear both;
+}
+
+@keyframes rotate-scale-up {
+  0% {
+    transform: scale(1) rotateZ(0);
+  }
+  50% {
+    transform: scale(2) rotateZ(180deg);
+  }
+  100% {
+    transform: scale(1) rotateZ(360deg);
+  }
+}
+.ig {
+  animation: rotate-scale-up 0.4s linear both;
+}
+
+@keyframes rotate-scale-up {
+  0% {
+    transform: scale(1) rotateZ(0);
+  }
+  50% {
+    transform: scale(2) rotateZ(180deg);
+  }
+  100% {
+    transform: scale(1) rotateZ(360deg);
+  }
+}
+.tlm {
+  animation: rotate-scale-up 0.4s linear both;
+}
+
+@keyframes rotate-scale-up {
+  0% {
+    transform: scale(1) rotateZ(0);
+  }
+  50% {
+    transform: scale(2) rotateZ(180deg);
+  }
+  100% {
+    transform: scale(1) rotateZ(360deg);
+  }
+}
+.lkn {
+  animation: rotate-scale-up 0.4s linear both;
+}
+
+@keyframes rotate-scale-up {
+  0% {
+    transform: scale(1) rotateZ(0);
+  }
+  50% {
+    transform: scale(2) rotateZ(180deg);
+  }
+  100% {
+    transform: scale(1) rotateZ(360deg);
+  }
+}
+.gmail {
+  animation: rotate-scale-up 0.4s linear both;
+}
+
+@keyframes rotate-scale-up {
+  0% {
+    transform: scale(1) rotateZ(0);
+  }
+  50% {
+    transform: scale(2) rotateZ(180deg);
+  }
+  100% {
+    transform: scale(1) rotateZ(360deg);
+  }
+}
+.outlook {
+  animation: rotate-scale-up 0.4s linear both;
+}
+
+@keyframes rotate-scale-up {
+  0% {
+    transform: scale(1) rotateZ(0);
+  }
+  50% {
+    transform: scale(2) rotateZ(180deg);
+  }
+  100% {
+    transform: scale(1) rotateZ(360deg);
+  }
+}
+.button {
+  background-color: #00ffff;
+  border-radius: 10px;
+}
+
+.button2 {
+  background: linear-gradient(#000000, #006565);
+  border-radius: 12px;
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  border: none;
+  padding: 1rem 2rem;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+}
+
+.button2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, red, blue, green, deeppink, blue, red, deeppink);
+  background-size: 800%;
+  border-radius: 10px;
+  filter: blur(8px);
+  animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.card {
+  width: 450px;
+  display: grid;
+  margin-left: 760px;
+  padding: 1px;
+}
+
+.card-text {
+  color: rgb(0, 63, 118);
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, red, blue, green, deeppink, blue, red, deeppink);
+  background-size: 800%;
+  border-radius: 10px;
+  filter: blur(8px);
+  animation: glowing 20s linear infinite;
+}
+
+@media (max-width: 560px) {
+  .sectioninicio {
+    overflow: auto;
+    text-overflow: ellipsis;
+    width: 90px;
+    height: 50px;
+    margin: 10px;
+    padding: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+  }
+  .titulo {
+    font-size: 30px;
+  }
+  .navabar1 {
+    padding: 10px;
+    margin: 5px;
+    color: #002064;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+  }
+  .carrusel {
+    margin: 20px;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+    gap: 16px;
+    margin: 90px;
+    padding: 10px;
+    width: 200px;
+  }
+  .imgPortafolio {
+    margin: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
